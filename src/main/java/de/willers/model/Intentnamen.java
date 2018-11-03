@@ -11,5 +11,5 @@ public interface Intentnamen {
     String FALLBACKINTENT = "AMAZON.FallbackIntent";
 
     //Definierte Intents Namen
-    String STARTGAMEINTENT = "StartGameIntent";
+    String PERSONINTENT= "PersonIntent";
 }

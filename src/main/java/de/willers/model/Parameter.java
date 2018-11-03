@@ -5,4 +5,6 @@ package de.willers.model;
  */
 public interface Parameter {
     String SKILL_ID = "amzn1.ask.skill.1e7d4df0-b83e-4c14-b457-59d743b178c4";
+
+    String NAME = "name";
 }

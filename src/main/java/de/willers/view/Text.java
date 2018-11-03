@@ -9,7 +9,19 @@ public interface Text {
     String STOP          = "ZU BEARBEITEN";
     String FALLBACK      = "ZU BEARBEITEN";
 
-    String BELASTEND_START = "Belastend gestartet";
+    String[] BELASTEND_ANTWORT = {
+            "Du denkst dein Tag war belastend? Mir wurde heute ein Hammer in die Hand gedrückt und ich sollte damit schrauben drehen. ",
+            "Wenn du wüsstest, was mich die Leute tagtäglich alles fragen. Absolut belastend ",
+            "Sollte letztens jemanden wecken - Habe selbst verschlafen. Belastend. "
+    };
+
+    String FRAGE_BELASTUNG = "Wer ist eine Belastung? ";
+    String[] NAME_BELASTEND = {
+            ", du bist belastend! ",
+            ", du bist eine einzige Belastung! ",
+            ", du belastest mich! ",
+            ", ich glaube ich spreche im Namen aller. - Du bist eine Belastung! "
+    };
 
     //SSML Aussprache
 

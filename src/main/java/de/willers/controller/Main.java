@@ -17,7 +17,7 @@ public class Main extends SkillStreamHandler {
                         new SessionEndedRequestHandler(),
                         new FallbackIntentHandler(),
 
-                        new BelastendIntentHandler())
+                        new PersonIntentHandler())
                 .withSkillId(Parameter.SKILL_ID)
                 .build();
     }
